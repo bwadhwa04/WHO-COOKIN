@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="expmnt.css">
+  </head>
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+   <!-- <script>
+    function loadFile(ref,x) 
+  {
+      var image = document.getElementById("prev"+x);
+      image.src = URL.createObjectURL(ref.files[0]);
+  }
+  
+</script> -->
+<body style="background-image: url(pics/signupbg1.png); color: rgb(48, 96, 160); background-size: contain; background-repeat: no-repeat; background-position: right top; margin-right: 180px;">
+  <center>
+    <div class="logincard" style="height: 600px; margin-top: 50px; box-shadow: 2px 2px 10px grey; width: 35%; padding-top: 10px; border: 4px rgb(183, 218, 238) solid;" >
+      <form action="/signup-process" method="post">
+      <div style="height: 70px; color: rgb(51, 71, 180); width: 96%; background-color: rgb(209, 227, 251); border-radius: 15px; padding-top: 17px;"><h4>Sign up!</h4></div>
+    <label for="email" style="float: left; padding-left: 20px; padding-top: 20px;"><h5>E-mail:</h5></label>
+    <input type="email" name="email" id="email" style="border-radius: 10px; height: 50px; width: 90%; border:1px grey solid;">
+    <div style="height: 100px; width: 95%; margin-top: 20px;">
+      <div style="width: 49%; height: 100px;  float: left;">
+    <label for="uname" style="float: left; padding-left: 20px;"><h5>Name:</h5></label>
+    <input type="text" name="uname" id="uname" style="border-radius: 10px; height: 50px; width: 90%; border:1px grey solid;">
+  </div>
+  <div style="width: 49%; height: 100px; float: right;">
+    <label for="contactno" style="float: left; padding-left: 20px;"><h5>Contact No.</h5></label>
+    <input type="number" name="contactno" id="contactno" style="border-radius: 10px; height: 50px; width: 90%; border:1px grey solid; float: right; margin-right: 10px;">
+  </div>
+  </div>
+    <label for="username" style="float: left; padding-left: 20px; padding-top: 10px;"><h5>Username:</h5></label>
+    <input type="text" name="username" id="username" style="border-radius: 10px; height: 50px; width: 90%; border:1px grey solid;">
+    <label for="pwd" style="float: left; padding-left: 20px; padding-top: 20px;"><h5>Password:</h5></label>
+    <input type="password" name="pwd" id="pwd" style="border-radius: 10px; height: 50px; width: 90%; border:1px grey solid;">
+    <input type="submit"  value="Submit" style="background: rgb(48, 96, 160); color: aliceblue; height: 50px; width: 100px; border-radius: 10px; font-size: large; margin-top: 30px; ">
+  </form>
+  </div>
+  </center>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
